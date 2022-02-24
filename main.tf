@@ -202,7 +202,7 @@ resource "null_resource" "configure-cat-app" {
     }
   }
 }
-=======
+
 module "web_app_container" {
   source              = "app.terraform.io/jbindas-sandbox/web-app-container/azurerm"
   name                = "${var.prefix}"
